@@ -28,6 +28,7 @@ app.get('/pay', (req, res) => {
 	// make sure that orderid be unique all time
 	params['ORDER_ID'] = 'TEST_' + new Date().getTime();
 	params['CUST_ID'] = 'Customer001';
+	// Enter amount here eg. 100.00 etc according to your need
 	params['TXN_AMOUNT'] = '11.00';
 
 	if (PORT == 8080) {
