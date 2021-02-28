@@ -1,0 +1,30 @@
+{
+  "name": "paytm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js",
+    "dev2": "nodemon server2.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.9.2",
+    "getstream": "^7.2.1",
+    "horizon-youtube-mp3": "^1.9.2",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.11.4",
+    "qrcode": "^1.4.4",
+    "socket.io": "^3.0.3",
+    "youtube-mp3-downloader": "^0.7.6",
+    "ytdl-core": "^4.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
